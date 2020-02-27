@@ -1,8 +1,6 @@
 #!/bin/bash -x
 #PRINTING MESSAGE
 echo "Welcome to flip coin simulation "
-#GENERATING RANDOM VALUE
-result=$((RANDOM%2+1))
 #CONSTANT VARIBALE
 COUNT_HEAD=0
 COUNT_TAIL=0
@@ -90,3 +88,4 @@ echo "Tail tail tail percentage : $tttPercentage"
 echo "Tail tail head percentage : $tthPercentage"
 echo "Tail head tail percentage : $thtPercentage"
 echo "Head Tail tail percentage : $httPercentage"
+}
