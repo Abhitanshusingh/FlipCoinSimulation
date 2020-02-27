@@ -35,7 +35,7 @@ do
 				;;
 
 			3)
-   		   COUNT_HTH=$(($COUNT_HTH+1))
+				COUNT_HTH=$(($COUNT_HTH+1))
 				FlipingCoin["HTH"]="$COUNT_HTH"
 				;;
 
@@ -88,4 +88,3 @@ echo "Tail tail tail percentage : $tttPercentage"
 echo "Tail tail head percentage : $tthPercentage"
 echo "Tail head tail percentage : $thtPercentage"
 echo "Head Tail tail percentage : $httPercentage"
-}
